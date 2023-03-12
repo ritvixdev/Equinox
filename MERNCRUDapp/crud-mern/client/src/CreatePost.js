@@ -31,6 +31,8 @@ const CreatePost = () => {
       .post("/create", post)
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
+
+      navigate("posts")
   };
 
   //   useEffect (() => {
